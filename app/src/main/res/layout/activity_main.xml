@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/theme_bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_start"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/item_small"
+            android:layout_margin="@dimen/margin_normal"
+            android:background="@drawable/btn_blue_selector"
+            android:text="start service"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_small" />
+
+        <Button
+            android:id="@+id/btn_stop"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/item_small"
+            android:layout_margin="@dimen/margin_normal"
+            android:background="@drawable/btn_blue_selector"
+            android:text="stop service"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_small" />
+
+        <Button
+            android:id="@+id/btn_running"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/item_small"
+            android:layout_margin="@dimen/margin_normal"
+            android:background="@drawable/btn_blue_selector"
+            android:text="isServiceRunning"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_small" />
+    </LinearLayout>
+
+</LinearLayout>
